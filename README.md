@@ -79,4 +79,4 @@ This project demonstrates end-to-end data analytics skills including data prepro
 ## 👤 Author
 Laxmi  
 Integrated M.Tech CSE (Computational & Data Science)  
-Vellore Institure of Technology
+Vellore Institute of Technology
