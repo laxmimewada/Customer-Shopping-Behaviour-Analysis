@@ -6,7 +6,7 @@ GROUP BY gender;
 --Q2. Which customers used a discount but still spent more than the average purchase amount?
 SELECT customer_id, purchase_amount
 FROM customer
-WHERE discount_applied = 'Yes' and purchase_amount >= (SELECT AVG(purchase_amount) FROM customer)
+WHERE discount_applied = 'Yes' and purchase_amount >= (SELECT AVG(purchase_amount) FROM customer);
 
 --Q3. Which are the top 5 products with the highest average review rating?
 select item_purchased, round(avg(review_rating::numeric),2) as "Average Product Rating"
